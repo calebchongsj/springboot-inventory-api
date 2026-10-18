@@ -1,11 +1,19 @@
-# Compiled class file
-*.class
+# MongoDB Atlas credentials
+.env
+.env.*
+!.env.example
 
-# Log file
+# Debug log files
 *.log
+
+# Maven build output
+target/
 
 # BlueJ files
 *.ctxt
+
+# Java compiled files
+*.class
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
